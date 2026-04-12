@@ -32,7 +32,7 @@ npm — Package manager
 🚀 Getting Started
 
 1. Clone the repository
-git clone https://github.com/MirTasinDev/assaignment-6
+git clone https://github.com/MirTasinDev/assaignment-6.git
 2. Navigate to the project folder
 cd digitools
 3. Install dependencies
