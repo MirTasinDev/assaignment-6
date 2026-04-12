@@ -1,58 +1,51 @@
-# DigiTools — Digital Tools Buying Platform
+🧰 DigiTools — Digital Tools Buying Platform
 
-A modern e-commerce website for premium digital tools built with React.js and Tailwind CSS.
+DigiTools is a modern e-commerce web application designed for purchasing premium digital tools. It is built as a single-page application using React.js and Tailwind CSS.
 
----
+📌 Description
 
-##  Description
+DigiTools allows users to explore and purchase a variety of premium digital tools such as AI writing assistants, design templates, automation toolkits, and more.
 
-DigiTools is a single-page application where users can browse and purchase premium digital tools including AI writing assistants, design templates, automation toolkits, and more. Products can be added to a cart, reviewed, and checked out — all with smooth toast notifications.
+With this platform, users can:
 
----
+Browse available digital products easily
+Add or remove items from the cart
+Review selected items before purchase
+Complete checkout smoothly with instant toast notifications
 
-## Technologies
+🛠️ Technologies Used
+React.js — For building reusable UI components
+Vite — Fast and optimized development environment
+Tailwind CSS — Utility-first CSS framework for styling
+DaisyUI — Pre-designed UI components built on Tailwind
+React-Toastify — For displaying toast notifications
+JavaScript (ES6+) — Core application logic
+npm — Package manager
 
-- **React.js** — Component-based UI
-- **Vite** — Fast development build tool
-- **Tailwind CSS** — Utility-first CSS framework
-- **DaisyUI** — Tailwind CSS component library
-- **React-Toastify** — Toast notification library
-- **JavaScript (ES6+)** — No TypeScript
-- **npm** — Package manager
+✨ Features
+🛒 Cart Management — Add, remove, and manage products with real-time updates
+📦 Product Catalog — Displays 8 premium digital tools in a responsive grid layout
+🏷️ Product Labels — Includes tags like Best Seller, Popular, and New
+📱 Fully Responsive Design — Works smoothly across mobile, tablet, and desktop devices
+🔔 Toast Notifications — Instant feedback for user actions
+⚡ Fast Performance — Powered by Vite for optimized speed
+🚀 Getting Started
 
----
-
-## Features
-
-1. Cart Management — Add products to cart, remove individual items, and proceed to checkout with instant toast feedback.
-2. Product Catalog — Browse 8 premium digital tools displayed in a clean 3-column grid with tag badges (Best Seller, Popular, New).
-3. Fully Responsive — Works seamlessly on mobile, tablet, and desktop with a collapsible mobile navigation menu.
-
----
-
-## Getting Started
-
-# Clone the repository
-git clone https://github.com/your-username/digitools.git
-
-# Navigate to the project directory
+1. Clone the repository
+git clone https://github.com/MirTasinDev/assaignment-6
+2. Navigate to the project folder
 cd digitools
-
-# Install dependencies
+3. Install dependencies
 npm install
-
-# Start the development server
+4. Start the development server
 npm run dev
 
+Then open your browser and visit:
 
-Open [http://localhost:5173](http://localhost:5173) in your browser.
+http://localhost:5173
 
----
-
-## 📁 Project Structure
-
-```
-digitools/
+📁 Project Structure
+ASSAIGNMENT-6/
 ├── src/
 │   ├── assets/          # Images and icons
 │   ├── components/      # React components
@@ -66,18 +59,13 @@ digitools/
 │   │   ├── Pricing.jsx
 │   │   ├── CTABanner.jsx
 │   │   └── Footer.jsx
-│   ├── context/
-│   │   └── CartContext.jsx  # Global cart state
-│   ├── data/
-│   │   └── products.js      # Product data
+│   ├── context/         # Global cart state management
+│   ├── data/            # Product data
 │   ├── App.jsx
 │   └── main.jsx
 ├── package.json
 └── vite.config.js
-```
 
----
-
-## 📄 License
+📄 License
 
 © 2026 DigiTools. All rights reserved.
